@@ -1,0 +1,16 @@
+Design - https://marketifythemes.net/html/elisc/index-one-page.html
+
+
+# Features
+
+    - Single Page Website
+    - Portfolio Project
+
+# Tools & Technology 
+
+        - HTML5
+        - CSS 
+        - JQuery (Activity)
+        - Bootstrap (CSS)
+        - Bootstrap Icons (Icons)
+        - AOS (Animation)
