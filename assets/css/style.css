@@ -356,7 +356,60 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400 !important;
 }
 
-/*Clients*/
-.hsr-clients{
-    
+.hsr-client-list{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 58px;
+}
+
+.hsr-client{
+    height: 200px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-right: 2px solid grey;
+    border-bottom: 1px solid grey;
+}
+.hsr-second-row .hsr-client{
+    border-bottom:0;
+    border-top: 1px solid grey;
+}
+
+
+.last-child{
+    border-right:0;
+}
+
+
+/* Contact Us */
+
+#contact{
+    background:#E9F9FF;
+    height: auto;
+}
+
+#contact .hsr-sub-caption{
+    max-width: 100%;
+}
+
+.hsr-link-text{
+    color: var(--theme-dark-blue);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.form-control{
+    padding: 1rem 1.5rem;
+    font-size: 16px;
+    border:1px solid white;
+    background:white;
+    border-radius:0;
+
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid lightgray;
 }
